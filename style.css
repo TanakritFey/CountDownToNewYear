@@ -1,0 +1,27 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg');
+    height: 100vh; /* ให้ทุกส่วนอยู่ตรงกลาง */
+    background-size: cover;
+    color: white;
+
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-transform: uppercase;
+
+}
+h1{
+    font-size: 3rem;
+}
+.countdown{
+    display: inline-block;
+    font-size: 1.7em;
+    padding: 1rem;;
+}
+.countdown span{
+    display: block;
+    font-size: 1.5rem;
+}
